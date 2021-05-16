@@ -1,0 +1,19 @@
+.bg
+{
+    padding: 10px;
+    
+   
+}
+body
+{
+    background-image: linear-gradient(rgba(66, 173, 100, 0.445), rgba(36, 107, 36, 0.479)), url("cover.jpg");
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-position:bottom ;
+    background-attachment: fixed;
+    
+}
+h1,p
+{
+    color: white;
+}
