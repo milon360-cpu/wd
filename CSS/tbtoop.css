@@ -1,26 +1,21 @@
-table{
+table
+{
+    border: 2px solid green;
     margin: 0px auto;
     border-collapse: collapse;
 }
 th,td
 {
-    border: 1px solid black;
-    
-   
-}
-td
-{
-    height: 20px;
+    border: 2px solid black;
+    height: 25px;
     width: 100px;
     text-align: center;
-    background-color: teal;
-    color: white;
-    cursor: pointer;
-    font-size: 20px;
-    font-weight: bold;
+    font-weight: 700px;
+    font-size: 22px;
 }
-td:hover
+tr:hover 
 {
- background-color:gray;
- color: aqua;
+    background-color: green;
+    color: white;
+
 }
