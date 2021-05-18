@@ -1,0 +1,47 @@
+*
+{
+    box-sizing: border-box;
+}
+.div-1
+{
+    background-color: aquamarine;
+    width: 500px;
+    height: auto;
+    text-align: justify;
+    margin-left: 2%;
+    padding: 20px;
+    float: left;
+    
+}
+.div-2
+{
+    background-color: rgb(174, 202, 193);
+    width: 500px;
+    height: auto;
+    text-align: justify;
+    margin-left: 2%;
+    padding: 20px;
+    float: left;
+}
+.div-2 p
+{
+    opacity: 0.5;
+}
+.div-2 p:hover
+{
+    opacity: 1;
+}
+#my-facebook
+{
+    background-color: darkgreen;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    visibility: hidden;
+    /* display: none; */
+}
+.toltip:hover #my-facebook
+{
+    visibility: visible;
+    /* display: block; */
+}
