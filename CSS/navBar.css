@@ -1,0 +1,31 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+.nav-bar
+{
+    background-color: teal;
+    text-align: right;
+    padding: 25px 10px;
+}
+li
+{
+    float: right;
+    list-style: none;
+    margin: 0% 1%;
+}
+li a
+{
+    text-decoration: none;
+    font-size: 16px;
+   font-weight: bold;
+   color: white;
+}
+.nav-bar::after
+{
+    content: '';
+    clear: both;
+    display: block;
+}
