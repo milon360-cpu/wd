@@ -1,0 +1,40 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+.div-1
+{
+    background-color: teal;
+    height: 200px;
+    width: 200px;
+    /* position: relative;
+    top: 100px;
+    right: 100px; */
+
+}
+.clear
+{
+    clear: both;
+    content: '';
+    display: block;
+}
+.div-2
+{
+    background-color:tomato;
+    height: 400px;
+    width: 100%;
+    position: relative;
+    border: 2px solid green;
+    
+}
+.div-3
+{
+    border: 2px solid brown;
+    position: absolute;
+
+   
+    left: 100px;
+
+}
