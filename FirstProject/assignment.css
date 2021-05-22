@@ -19,7 +19,7 @@ body
 /* -------------- START NAV_BAR STYLE HERE------------------------------- */
 .nav-bar
 {
-    background-color: rgb(2, 119, 119);
+    background-color: #035fd8;
     padding: 23px 10px;
 }
 .nav-bar ul
@@ -35,7 +35,7 @@ li
 li a
 {
    text-decoration: none;
-   color: rgb(255, 255, 255);
+   color: white;
    font-size: 16px;
    font-weight: bold;
    padding: 3px 10px;
@@ -43,7 +43,7 @@ li a
 }
 li a:hover
 {
-    background-color: rgb(0, 0, 0);
+    background-color:  #0c2649;
 }
 .nav-bar::after
 {
@@ -67,11 +67,12 @@ li a:hover
 }
 .form
 {
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.157);
     height: 450px;
     width: 400px;
     padding: 20px;
     border-radius: 4px;
+   
 }
 input
 {
@@ -88,7 +89,7 @@ input:focus
 {
     border: 2px solid #4e90e6;
 }
-button
+.btn_
 {
     height: 45px;
     width: 100%;
@@ -102,7 +103,7 @@ button
     color: white;
     cursor: pointer;
 }
-button:hover
+.btn_:hover
 {
     background-color: #1a2e46;
 }
@@ -116,10 +117,31 @@ button:hover
     display: block;
     font-size: 18px;
     font-weight: bold;
-    color: #2D88FF;
+    color: #fdfdfd;
     text-decoration: none;
 }
 .form a:hover
 {
     text-decoration: underline;
+}
+.new-account
+{
+   height: 45px;
+   width: 60%;
+  
+   outline: 0px;
+   border-radius: 4px;
+   background-color: #45BD62;
+   border: none;
+   font-size: 18px;
+   font-weight: bold;
+   color: white;
+   cursor: pointer;
+   display: block;
+   margin: 0px auto;
+   margin-top: 4%;
+}
+.new-account:hover
+{
+    background-color: #036920;
 }

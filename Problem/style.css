@@ -1,0 +1,52 @@
+.first-h:hover{ 
+    color: teal;
+  }
+
+  .center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  .profile{
+      color: teal;
+      font-size: large;
+  }
+  .profile:hover{
+      color: rgb(15, 14, 14);
+      font-family:cursive ;
+  }
+  table {
+border: 5px solid black;
+}
+th{
+border: 2px solid red;
+font-size: 15px;
+font-family: Times New Roman;
+background-color:rgb(15, 14, 14);
+color: greenyellow;
+}
+td{
+border: 1px solid green;
+}
+
+.age{
+  margin-right:40px; 
+}
+
+.Age1{
+    margin-left:8px; 
+    
+}
+.reg{
+    color:salmon ;
+    background-color: black;
+    text-transform: capitalize;
+    border: 5px ridge ; 
+    display: inline;
+  
+}
+.quali{
+    display: inline;
+    border: 5px dotted ; 
+}
