@@ -1,0 +1,233 @@
+/* =========================================================
+                 BASIC STYLE START HERE 
+========================================================= */
+*
+{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body
+{
+    padding: 0px;
+    margin: 0px;
+    padding-right: 8px;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+/* =========================================================
+                 BASIC STYLE END HERE 
+========================================================= */
+
+/* -----------------HEADER STYLE START HERE---------------- */
+.navbar
+{
+    background-color: rgb(139, 134, 134);
+    padding: 30px 20px;
+    border-radius: 2px;
+    border-left: 10px solid tomato;
+    border-right: 10px solid tomato;
+}
+.container-fluid
+{
+    /* padding-left: 100px; */
+}
+.navbar-nav
+{
+    margin: 0px auto;
+}
+.nav-item
+{
+    margin:0% 5%;
+}
+.nav-link
+{
+    color: white;
+    padding: 3px 12px;
+    font-size: 17px;
+    font-weight: 800px ;
+    margin: 1%;
+    transition: .3s;
+}
+.nav-link:hover
+{
+    transform: scale(1.1);
+    color: black;
+}
+.nav-link:focus
+{
+  
+    color: rgb(117, 235, 235);
+}
+.btn_
+{
+    color: white;
+    
+}
+/* -----------------HEADER STYLE END HERE---------------- */
+
+/* -----------------MAIN SECTION ONE STYLE START HERE---------------- */
+.section-1
+{
+   margin-top: 5%;
+   display: flex;
+   justify-content:space-around; 
+
+}
+ .watch
+{
+    display: flex;
+    height: 200px;
+    width: 350px; 
+    background-color: #FFA500;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    color: white;
+    transition: .4s;
+    cursor: pointer;
+} 
+.watch:hover
+{
+    transform:scale(1.1);
+}
+
+.bag
+{
+    display: flex;
+    height: 200px;
+    width: 350px; 
+    background-color: #DA70D6;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    color: white;
+    transition: .4s;
+    cursor: pointer;
+}
+.bag:hover
+{
+    transform:scale(1.1);
+}
+ .shouues
+{
+    color: white;
+    display: flex;
+    height: 200px;
+    width: 350px; 
+    background-color: #0000FF;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    transition: .4s;
+    cursor: pointer;
+} 
+.shouues:hover
+{
+    transform:scale(1.1);
+}
+.shoes img
+{
+  height: 300px;
+  width: 100%;
+}
+.shoes
+{
+  
+    height: 510px;
+    width: 400px;
+    border-radius: 3px;
+    box-shadow: 5px 5px 30px lightgray;
+    transition: .4s;
+    cursor: pointer;
+}
+.shoes:hover
+{
+    transform: scale(1.1);
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 700px;
+}
+a:hover 
+{
+    color: rgb(236, 226, 226);
+}
+.section-2
+{
+    margin-top: 10%;
+}
+.section-3
+{
+    margin-top: 10%;
+}
+
+/* -----------------MAIN SECTION ONE STYLE END HERE---------------- */
+
+/* -----------------FOOTER SECTION ONE STYLE START HERE---------------- */
+.footer_
+{
+    background-color: #d1ced1;
+    margin-top: 10%;
+    border-radius: 5px;
+}
+.left-footer img
+{
+  height:100%;
+  width: 100%;
+  border-radius: 20px;
+}
+.left-footer
+{
+    padding: 10px;
+}
+.Right-footer
+{
+   text-align: center;
+}
+.complain
+{
+    height: 500px;
+    width: 500px;
+    background-color: rgb(182, 178, 178);
+    margin: 0px auto;
+    margin-top: 4%;
+    padding: 20px;
+    border-radius: 3px;
+}
+#email-field
+{
+    margin-top: 4%;
+}
+::placeholder
+{
+    font-size: 18px;
+}
+#area
+{
+    margin-top: 5%;
+    height: 250px;
+    width: 450px;
+    border: none;
+    outline: none;
+    resize: none;
+    border-radius: 3px;
+}
+#area:focus
+{
+    border: 2px solid rgba(29, 240, 134, 0.678);
+}
+#send
+{
+    font-size: 18px;
+    font-weight: 700px;
+}
+#copy-right
+{
+    text-align: center;
+    margin: 5% 0%;
+}
