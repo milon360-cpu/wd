@@ -1,0 +1,24 @@
+.container
+{
+    display: grid;
+    grid-template-columns: 600px  150px 400px ;
+    background-color: tomato;
+    padding: 20px;
+}
+.div-1
+{
+    border: 2px solid green;
+    padding: 30px;
+    margin: 1%;
+}
+/* .first
+{
+    /* grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3; 
+    grid-column: 1 /span 2 ;
+   
+    
+} 
+ */
