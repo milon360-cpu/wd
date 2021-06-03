@@ -1,0 +1,48 @@
+*
+{
+    box-sizing: border-box;
+}
+
+.grid-container
+{
+    display: grid;
+    grid-template-areas:
+        'header header header header'
+        'asid m m m'
+        'footer footer footer footer'
+     ;
+     background-color: tomato;
+     padding: 20px;
+}
+.Header
+{
+    grid-area: header;
+    border: 2px solid green;
+    padding: 20px;
+    margin: 1% 0%;
+ 
+}
+.Main
+{
+    grid-area: m;
+    border: 2px solid green!important;
+    padding: 20px;
+    margin-left: 10px;
+
+}
+.Asid 
+{
+    grid-area: asid;
+    border: 2px solid green;
+  
+
+   
+}
+.Footer 
+{
+    grid-area: footer;
+    border: 2px solid green;
+    padding: 20px;
+    margin: 1% 0%;
+
+}
