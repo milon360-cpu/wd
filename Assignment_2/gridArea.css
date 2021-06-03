@@ -1,0 +1,48 @@
+*
+{
+    text-align: center;
+}
+.item-1
+{
+    grid-area: Home;
+    padding: 30px;
+    font-size: 30px;
+    margin: 1%;
+    border: 2px solid green;
+}
+.item-2
+{
+    grid-area: Asid;
+    padding: 28px;
+    font-size: 30px;
+    margin: 1%;
+    border: 2px solid green;
+ 
+}
+.item-3
+{
+    grid-area: Main;
+    padding: 30px;
+    font-size: 30px;
+    margin: 1%;
+    border: 2px solid green;
+}
+.item-4
+{
+    grid-area: Fotter;
+    padding: 30px;
+    font-size: 30px;
+    margin: 1%;
+    border: 2px solid green;
+}
+.container
+{
+ 
+   background-color: tomato;
+   display: grid;
+    grid-template-areas: 
+    'Home Home Home Home'
+    'Asid Main Main Main'
+    'Fotter Fotter Fotter Fotter'
+    ;
+}
